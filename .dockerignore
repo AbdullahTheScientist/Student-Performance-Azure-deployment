@@ -1,0 +1,10 @@
+*.log
+*.csv
+*.xlsx
+*.ipynb
+.git
+node_modules
+venv
+__pycache__
+.DS_Store
+.env
