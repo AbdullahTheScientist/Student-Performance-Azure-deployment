@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: testdockerabdullah.azurecr.io/studentperformance1:latest
+    environment:
+      - DOCKER_CLIENT_TIMEOUT=120
+      - COMPOSE_HTTP_TIMEOUT=120
